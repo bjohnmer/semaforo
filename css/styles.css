@@ -2,6 +2,15 @@
 {
 	font-family: 'Amatic SC', cursive;
 }
+footer{
+	width: 90%;
+	margin: 2em auto;
+}
+footer p
+{
+	font-size: 1.5em;
+	text-align: center;
+}
 .caja{
 	background-color: black;
 	margin:0 auto;
