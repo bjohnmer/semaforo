@@ -1,4 +1,4 @@
-SEMÁFONO
+SEMÁFORO
 ========
 
 Semáforo con visualización de segundos
