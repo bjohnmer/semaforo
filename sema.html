@@ -1,8 +1,12 @@
 <!DOCTYPE HTML>
-<html lang="sp">
+<html lang="es">
 <head>
-    <title>Semáforo</title>
+  <title>Semáforo</title>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Semáforo en Javascript (JQuery) y CSS3">
+  <meta name="author" content="Johnmer Bencomo">
+
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
    	<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
     <script type="text/javascript">
@@ -25,7 +29,7 @@
 				$("#rojo").css("background","#cc0000");
 	      		$(".segundos").css("color","#cc0000");
 	      		$("#segundos").html("ESTADO: Rojo<br>Esperando Cambiar a Verde").css("color","#cc0000");
-		})
+		});
 		$("#empezar").trigger("click");
 		status = "verde";
 		setInterval(function(){
@@ -49,7 +53,7 @@
 			}
 			$(".segundos").html(segundos);
 		},1000)
-   	})
+   	});
     </script>
 </head>
 <body>
